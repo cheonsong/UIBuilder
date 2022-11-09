@@ -16,7 +16,8 @@ The UIBuilder helps you create views easily.
 
 1. Create the desired Builder object
 2. After setting properties
-3. Returns UIView as a _view_ variable
+3. Returns UIView as a _view_ variable.  
+(❗️layout: as a layout variable)
 
 ```Swift
   let view = View().backgroundColor(.white).view
@@ -30,3 +31,11 @@ The UIBuilder helps you create views easily.
   ...
   
 ```
+
+### Author
+
+cheonsong, qkrcjsthd@gmail.com
+
+### License
+
+UIBuilder is available under the MIT license. See the LICENSE file for more info.
