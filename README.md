@@ -1,5 +1,5 @@
 ## UIBuilder
-The UIBuilder helps you create views easily.
+The UIBuilder easily creates views through chaining.
 
 ### Bilder List
 - [View](https://github.com/cheonsong/UIBuilder/blob/master/UIBuilder/View.swift)
