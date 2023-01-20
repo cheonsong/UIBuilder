@@ -154,5 +154,20 @@ open class CollectionViewBuilder {
         view.transform3D = transform3D
         return self
     }
+    
+    open func showsHorizontalScrollIndicator(_ showsHorizontalScrollIndicator: Bool)-> CollectionViewBuilder {
+        build.showsHorizontalScrollIndicator = showsHorizontalScrollIndicator
+        return self
+    }
+    
+    open func showsVerticalScrollIndicator(_ showsVerticalScrollIndicator: Bool)-> CollectionViewBuilder {
+        build.showsVerticalScrollIndicator = showsVerticalScrollIndicator
+        return self
+    }
+    
+    open func contentInset(_ contentInset: UIEdgeInsets)-> CollectionViewBuilder {
+        build.contentInset = contentInset
+        return self
+    }
 
 }
